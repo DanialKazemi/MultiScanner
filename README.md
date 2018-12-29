@@ -3,7 +3,7 @@ A powerful Scanner using OpenCV!
 
 <img width="10%" src="https://github.com/DanialKazemi/MultiScanner/blob/master/Screenshots/scanlogo.png" alt="Logo" title="Logo"></img>
 
-By this app, Images can be multi-cropped and saved. MultiScanner detects contours using edge detection, and user can edit them using PolygonView or his/her finger! and finally user applies effects on chosen areas and saves the result!
+By this app, Images can be multi-cropped and saved. MultiScanner detects contours using edge detection, and user can edit them with PolygonView or his/her finger! and finally user applies effects on chosen areas and saves the result!
 
 
 # Screenshots
