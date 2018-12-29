@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="multichoiceadapter-3.0.0">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/7418b9c18c19bb3f2470b39bff00477268f74a97/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/7418b9c18c19bb3f2470b39bff00477268f74a97/output/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.manuelpeinado.multichoiceadapter/multichoiceadapter/3.0.0/a6432ff9b66f60520ae551fdce9c6d2d0e528972/multichoiceadapter-3.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

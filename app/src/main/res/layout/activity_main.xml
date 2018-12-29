@@ -1,0 +1,139 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ir.danial.multiscanner.MainActivity">
+
+    <include
+        android:id="@+id/toolBar"
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="0" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolBar"
+        android:layout_weight="1"
+        android:gravity="center">
+
+
+        <ListView
+            android:id="@+id/imagegallery"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="70dp"
+            android:clipToPadding="false"/>
+
+        <ImageView
+            android:id="@+id/imgNone"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_150sdp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:tint="#CFD8DC"
+            android:visibility="gone"
+            app:srcCompat="@drawable/no_camera" />
+
+        <com.wang.avi.AVLoadingIndicatorView
+            android:id="@+id/avi"
+            style="@style/AVLoadingIndicatorView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="visible"
+            app:indicatorColor="@color/color_primary"
+            app:indicatorName="BallClipRotatePulseIndicator" />
+
+    </RelativeLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/scanButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="false"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="18dp"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:tint="#FFFFFF"
+        android:visibility="gone"
+        app:backgroundTint="#78909C"
+        app:fabSize="mini"
+        app:srcCompat="@drawable/scan" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/flowButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="false"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="18dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:tint="#FFFFFF"
+        app:backgroundTint="#78909C"
+        app:fabSize="mini"
+        app:srcCompat="@drawable/f_video" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/mediaButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="false"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="18dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:tint="#FFFFFF"
+        app:backgroundTint="#78909C"
+        app:fabSize="mini"
+        app:srcCompat="@drawable/f_gallery" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/cameraButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="false"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="18dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:tint="#FFFFFF"
+        app:backgroundTint="#78909C"
+        app:fabSize="mini"
+        app:srcCompat="@drawable/f_camera" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabOpen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:clickable="true"
+        android:tint="#FFFFFF"
+        app:backgroundTint="#455A64"
+        app:fabSize="normal"
+        app:srcCompat="@drawable/round_add_24" />
+
+
+</RelativeLayout>

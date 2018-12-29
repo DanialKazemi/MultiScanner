@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="infinitecycleviewpager-1.0.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/11f1f3c4d5d9f246c83bb8a5de89ce36835f0bd9/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/11f1f3c4d5d9f246c83bb8a5de89ce36835f0bd9/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.devlight/infinitecycleviewpager/1.0.2/14a7b19962fb75179bc62e764b2063635335c856/infinitecycleviewpager-1.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

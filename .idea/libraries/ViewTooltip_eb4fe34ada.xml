@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="ViewTooltip-eb4fe34ada">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/0f2ad56db43cfb088cb2c62b4481eb16a59e5a4b/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/0f2ad56db43cfb088cb2c62b4481eb16a59e5a4b/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.florent37/ViewTooltip/eb4fe34ada/e3c582bf9f333318dd64002482956b98a9d178ff/ViewTooltip-eb4fe34ada-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

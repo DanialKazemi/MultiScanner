@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_dark"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/linearLayout"
+        android:layout_gravity="center">
+
+        <FrameLayout
+            android:id="@+id/sourceFrame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="18dp">
+
+            <RelativeLayout
+                android:id="@+id/rel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/sourceImageView"
+                    android:layout_alignLeft="@+id/sourceImageView"
+                    android:layout_alignRight="@+id/sourceImageView"
+                    android:layout_alignTop="@+id/sourceImageView"
+                    android:src="@android:color/black" />
+
+                <ir.danial.multiscanner.ImageMagnifier
+                    android:id="@+id/sourceImageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:adjustViewBounds="true" />
+
+            </RelativeLayout>
+
+        </FrameLayout>
+
+        <ir.danial.multiscanner.PolygonView
+            android:id="@+id/polygonView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#37474F"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rvContours"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_84sdp"
+                android:layout_weight="1"
+                android:visibility="visible">
+
+            </android.support.v7.widget.RecyclerView>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnAdd"
+                android:layout_width="10dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentStart="false"
+                android:layout_alignRight="@+id/rvContours"
+                android:layout_gravity="right|center_vertical"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/gradient_scan_limeade_p1"
+                android:text="Area +" />
+
+            <ImageView
+                android:id="@+id/imgDraw"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_margin="10dp"
+                android:layout_weight="0"
+                android:src="@drawable/drawingline"
+                android:tint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/scanButton"
+                android:layout_width="10dp"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="right|center_vertical"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/gradient_scan_limeade_p2"
+                android:text="@string/scan" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
