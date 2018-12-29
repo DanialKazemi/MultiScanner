@@ -24,6 +24,7 @@ By this app, Images can be multi-cropped and saved. MultiScanner detects contour
 
 # LiveScanner & AR
 Using this part, You can scan documents real-time. and AR, helps You to merge digital images with detected background!
+It can be helpful when You want to add your drawings or handwritten text to an image!
 
 <div align="center">
 <a href="https://github.com/DanialKazemi/MultiScanner/blob/master/Screenshots/LiveActivity.png" />
@@ -46,4 +47,4 @@ alt="Scan Video" width="30%" border="10" /></a>
 MultiScanner V1.9.1 
 <br><br>
 <a href="https://www.dropbox.com/s/8c6x610mvzag1jy/MultiScanner191.apk?dl=0" />
-<img width="23%" src="https://cdn.pixabay.com/photo/2017/02/13/09/53/download-2062197_1280.png" alt="result1" title="result1"></img>
+<img width="23%" src="https://cdn.pixabay.com/photo/2017/02/13/09/53/download-2062197_1280.png" alt="Download" title="Download"></img>
